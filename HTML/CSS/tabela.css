@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f6fa;
+  margin: 0;
+  padding: 15px;
+}
+
+.tabela-wrapper {
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+th, td {
+  border: 2px solid #ffffff;
+  padding: 6px;
+  text-align: center;
+}
+
+th {
+  background-color: #4ea72e;
+  color: white;
+  font-size: 13px;
+}
+
+.pos {
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+.linha-verde      { background-color: #83e28e; }
+.linha-vclaro     { background-color: #c1f0c8; }
+.linha-azul       { background-color: #dae9f8; }
+.linha-branco     { background-color: #fff; }
+.linha-vermelho   { background-color: #fbe2d5; }
+
+.time {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  justify-content: left;
+  padding-left: 5px;
+}
+
+.time img {
+  width: 28px;
+  height: 28px;
+}
+.jogo-6{  padding: 6px 12px;  background-color: #c0e6f5;}
+.jogo-5{  padding: 6px 12px;  background-color: #d5bfb0;}
+.jogo-4{  padding: 6px 12px;  background-color: #ea986c;}
+.jogo-3{  padding: 6px 12px;  background-color: #ff7128;}
+
+ .vitorias , .saldoGols {
+  padding: 6px 12px;
+  background-color: #efffef
+}
+
+.linha-clara {
+  background-color: #efffef;
+}
+
+.apr-72 { background: #63be7b;}
+.apr-67 { background: #8ace9c; }
+.apr-61 { background: #b0ddbd; }
+.apr-60 { background: #b8e1c4; }
+.apr-58 { background: #c3e5ce; }
+.apr-56 { background: #d6edde; }
+.apr-50 { background: #fcfcff; }
+.apr-47 { background: #fbf2f5; }
+.apr-44 { background: #fbebee; }
+.apr-42 { background: #fbe3e6; }
+.apr-33 { background: #facbcd; } 
+.apr-28 { background: #fababd; }
+.apr-7  { background: #f87c7e; }
+.apr-0  { background: #f8696b; }
